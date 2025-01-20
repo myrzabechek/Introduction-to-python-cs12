@@ -1,0 +1,87 @@
+a = 2
+b = 2
+print("2*2=",a*b)
+c = 2
+d = 5
+print("2*5=",c*d)
+
+name = input("insert name:")
+print("hello", name)
+age = input("insert age:")
+print("you are skuf",)
+
+
+num1 = input("число-1: ")
+num2 = input("число-2: ")
+summ = num1 * num2
+print(summ)
+
+
+
+
+
+a = 5.45
+print(a)
+b = float(a)
+print(b)
+
+
+num1 = float(input("write num1:"))
+num2 = float(input("write num2:"))
+summ = num1 + num2
+print("num1 + num2 =",summ,"=", int(summ))
+
+a = float(input("num1:"))
+b = float(input("num2:"))
+print(f"a = {a}, b = {b}, the sum = {a+b}")
+
+
+name = input("insert name:")
+print("hello", name)
+age = input("insert age:")
+print("you are young",)
+print(f"his name is = {name}, he is a = {age}")
+
+wallet = float(input("how much money do u have?"))
+if wallet < 1400:
+    print("get out of here u are poor!")
+    exit()
+elif wallet > 1400:
+    print("welcome ma boy")
+
+iphonePrice = float(2000)
+samsungPrice = float(1800)
+xiaomiPrice = float(1400)
+
+print(f"iphone = {iphonePrice}, samsung = {samsungPrice}, xiaomi = {xiaomiPrice}")
+
+answer = input("what do u wanna buy?")
+if answer == "iphone":
+    print("lets check ur money")
+    if wallet < iphonePrice:
+        print("sorry ma boy u dont have enough money")
+    elif wallet >= iphonePrice:
+        print("thanks for buying")
+if answer == "samsung":
+    print("lets check ur money")
+    if wallet < samsungPrice:
+        print("sorry ma boy u dont have enough money")
+    elif wallet >= samsungPrice:
+        print("thanks for buying")
+if answer == "xiaomi":
+    print("lets check ur money")
+    if wallet < xiaomiPrice:
+        print("sorry ma boy u dont have enough money")
+    elif wallet >= xiaomiPrice:
+        print("thanks for buying")
+
+
+
+weight = float(input("введите ваш вес:"))
+height = float(input("введите ваш рост:"))
+
+
+imt = weight/ (height**2)
+
+print(imt)
+
